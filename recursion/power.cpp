@@ -42,10 +42,10 @@ int fast_power(int a, int p) {
 
 int main() {
 
-	int a = 3;
-	int p = 3;
+	int a = 361;
+	int p = 163;
 
-	cout << power(a, p) << endl;
-	cout << fast_power(a, p);
+	//cout << power(a, p) << endl;
+	cout << fast_power(a, p) % 1000000007;
 
 }

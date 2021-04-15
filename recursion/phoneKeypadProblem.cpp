@@ -34,7 +34,8 @@ void generateNames(char in[], char out[] , int i, int j) {
 int main()
 {
 	char out[] = "";
-	char in[] = "546546";
+	char in[] = "22";
+
 
 
 	generateNames(in, out, 0, 0);

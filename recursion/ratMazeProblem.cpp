@@ -42,6 +42,7 @@ bool printPath(char maze[][10], int soln[][10], int i , int j, int n , int m)
 	if (rightSuccess or downSuccess) {
 		return true;
 	}
+
 	return false;
 
 
